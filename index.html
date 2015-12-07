@@ -29,12 +29,28 @@
         <p>Check out my projects soon!</p>
       </section>
     </div>
+    
+    <!--Disqus Comment Section-->
+    <div id="disqus_thread"></div>
+		<script type="text/javascript">
+			/* * * CONFIGURATION VARIABLES * * */
+			var disqus_shortname = 'kanac'; // required: replace example with your forum shortname
+                        var disqus_identifier = '{{ kanac.github.io }}';
+		        var disqus_url = 'http://kanac.github.com{{ kanac.github.io  }}';
+			/* * * DON'T EDIT BELOW THIS LINE * * */
+			(function() {
+				var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+				dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+			})();
+		</script>
 
     <a href="https://twitter.com/share" class="twitter-share-button" data-via="Broacx">Tweet</a>
-
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
+   
     <a href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false"> <img src="//www.redditstatic.com/spreddit1.gif" alt="" border="0" /> </a>
+    
+    <a href="http://kanac.github.com{{kanac.github.io}}#disqus_thread" data-disqus-identifier="{{kanac.github.io}}"></a>
 
   </body>
 </html>
