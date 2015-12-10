@@ -244,15 +244,3 @@ a {
 .cf {
   zoom:1;
 }
-
-.aligncenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.alignleft {
-    float: left;
-}
-.alignright {
-    float: right;
-}
