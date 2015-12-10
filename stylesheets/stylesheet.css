@@ -17,7 +17,6 @@ body {
 }
 
 section {
-  display: block;
   margin: 0 0 20px 0;
 }
 
@@ -244,4 +243,16 @@ a {
 
 .cf {
   zoom:1;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.alignleft {
+    float: left;
+}
+.alignright {
+    float: right;
 }
